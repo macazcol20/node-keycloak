@@ -1,0 +1,15 @@
+kubectl create secret tls elastic-tls -n elasticsearch-kibana --cert=bbb.crt --key=bbb.key
+kubectl create secret tls kibana-tls -n elasticsearch-kibana --cert=bbb.crt --key=bbb.key
+kubectl create secret tls kiali-tls -n istio-system --cert=bbb.crt --key=bbb.key
+kubectl create secret tls aws-load-balancer-tls -n kube-system --cert=bbb.crt --key=bbb.key
+kubectl create secret tls api-letsencrypt-tls -n minio --cert=bbb.crt --key=bbb.key
+kubectl create secret tls console-letsencrypt-tls -n minio --cert=bbb.crt --key=bbb.key
+kubectl create secret tls annotations-develop-tls -n opr-develop --cert=bbb.crt --key=bbb.key
+kubectl create secret tls dashboard-develop-tls -n opr-develop --cert=bbb.crt --key=bbb.key
+kubectl create secret tls develop-tls -n opr-develop --cert=bbb.crt --key=bbb.key
+kubectl create secret tls keycloak-develop-tls -n opr-develop --cert=bbb.crt --key=bbb.key
+kubectl create secret tls links-develop-tls -n opr-develop --cert=bbb.crt --key=bbb.key
+kubectl create secret tls matchmaker-reflect-tls -n opr-develop --cert=bbb.crt --key=bbb.key
+kubectl create secret tls sync-develop-tls -n opr-develop --cert=bbb.crt --key=bbb.key
+kubectl create secret tls voip-develop-tls -n opr-develop --cert=bbb.crt --key=bbb.key
+kubectl create secret tls web-develop-tls -n opr-develop --cert=bbb.crt --key=bbb.key
